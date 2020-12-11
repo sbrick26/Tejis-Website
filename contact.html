@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tejis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"> </head>
+
+<body>
+    <div id="myNav" class="overlay container">
+        <div class="container">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html">Teji's Indian Restaurant and Grocery</a>
+                    </div>
+
+                    <ul class="nav navbar-nav navbar-right navbar-header">
+
+                        <li>
+
+                            <a onclick="closeNav()">
+                                <span class="glyphicon glyphicon-remove"></span>
+
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </nav>
+        </div>
+        <!--        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>-->
+        <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    
+  
+    <div id="main">
+
+        <div class="container">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html">Teji's</a>
+
+                    </div>
+
+                    <ul class="nav navbar-nav navbar-right navbar-header">
+
+                        
+                        <li>
+
+                            <a onclick="openNav()">
+                                <span class="glyphicon glyphicon-menu-hamburger"></span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class=" hamb">
+
+                    <!--                <a onclick="openNav()">-->
+                    <button data-toggle="collapse" data-target="#navres">
+
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+
+                </div>
+
+            </nav>
+
+        </div>
+
+        <div id="navres" class="collapse">
+            <ul class="nav nav-stacked">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </div>
+    <div class="about img pic1">
+        <p>Contact</p>
+    </div>
+    <!--..-->
+    <div class="container">
+        <div class="row short-row">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <p>Fill out the form below for an catering/general inquiries!</p>
+                <div class="form">
+
+                    <form role="form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="number">Phone Number</label>
+                            <input type="text" id="number">
+                        </div>
+                        <div class="form-group">
+                            <label for="Inquiry">Inquiry</label>
+                            <textarea id="Inquiry"></textarea>
+                        </div>
+                        <button type="submit" class="btn1 ">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            
+                <h1>Hours:</h1>
+
+                    <p>Sunday to Thursday: 10:30 AM – 9:00 PM </p>
+
+                    <p>Friday and Saturday: 10:30 AM – 10:00 PM</p>
+          </div>
+        </div>
+    </div>
+
+    <!--    ----->
+    <footer>
+        <div class="container">
+            <div class="row text-cen">
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <ul class="location">
+                        <span>Our location</span>
+
+                        <iframe width="100%" height="230" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.358809212277!2d-97.69633778550549!3d30.510891603342543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644d18b08eceb65%3A0xde4641a570f5373d!2sTeji&#39;s%20Indian%20Restaurant%20and%20Grocery!5e0!3m2!1sen!2sus!4v1607569623772!5m2!1sen!2sus"> </iframe>
+
+                        <li>
+                            <p style="color:white; ">1205 Round Rock Ave #115 </p>
+                            <p style="color:white; ">Round Rock, TX</p>
+                            <p style="color:white; ">78681</p>
+                        </li>
+
+                        
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                    <ul class="text ">
+                        <span>Order Now!</span>
+                        <p><a href="https://tejis-2.square.site/">Click here!</a></p>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                    <ul class="menus ">
+                        <span>Menu</span>
+                        <li style="padding:0 0 12px 0; ">
+                            <a href="index.html">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </footer>
+    
+</div>
+
+
+<script>
+    function openNav() {
+        document.getElementById("myNav").style.height = "100%";
+
+    }
+
+    function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+    }
+
+    function openSearch() {
+        document.getElementById("search").style.height = "100px";
+    }
+
+    function closeSearch() {
+        document.getElementById("search").style.height = "0%";
+    }
+
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+
+</body>
+</html>
